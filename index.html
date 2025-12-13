@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Marketplace</title>
+    <link rel="stylesheet" href="/src/styles/normalize.css">
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mini Marketplace</h1>
+        </header>
+        
+        <main class="main-content">
+            <section class="products-section">
+                <h2>Products</h2>
+                <div id="products-list" class="products-grid">
+                    <div class="loading">Loading products...</div>
+                </div>
+            </section>
+            
+            <section class="cart-section">
+                <div id="cart-root"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/src/products.js" type="module"></script>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
